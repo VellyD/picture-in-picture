@@ -10,7 +10,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      background-color: rgb(37, 37, 37);
+      background: rgb(193, 170, 203);
+      background: linear-gradient(233deg, rgba(193, 170, 203, 1) 36%, rgba(253, 244, 45, 1) 100%);
+
   }
 
   .button-container {
@@ -29,14 +31,14 @@
       font-size: 25px;
       color: white;
       text-shadow: 0 2px 5px black;
-      background: linear-gradient(to top, #696969, #575757);
+      background: linear-gradient(to top, #1f4037, #99f2c8);
       border: 2px solid black;
       border-radius: 7px;
       box-shadow: inset 0 20px 4px -19px rgba(255, 255, 255, 0.4), 0 12px 12px 0px rgba(0, 0, 0, 0.3);
   }
 
   button:hover {
-      background: linear-gradient(to bottom, #696969, #575757);
+      background: linear-gradient(to bottom, #1f4037, #99f2c8);
   }
 
   button:active {
