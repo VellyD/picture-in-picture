@@ -9,7 +9,7 @@ async function selectMedia() {
       videoElement.play();
     };
   } catch (err) {
-    alert("Error fount:", err);
+    alert("Error fount:" + err);
   }
 }
 
